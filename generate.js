@@ -120,18 +120,18 @@ return `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>${p.t}</title>
 <meta name="description" content="${p.d}">
-<link rel="canonical" href="https://tonerin-italy.pages.dev${base}${slug}/">
+<link rel="canonical" href="https://tonerin.pages.dev${base}${slug}/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="article">
 <meta property="og:title" content="${p.t}">
 <meta property="og:description" content="${p.d}">
-<meta property="og:url" content="https://tonerin-italy.pages.dev${base}${slug}/">
+<meta property="og:url" content="https://tonerin.pages.dev${base}${slug}/">
 <meta property="og:locale" content="${c.loc}">
 <meta property="og:site_name" content="${c.site}">
 <meta name="geo.region" content="${c.reg}">
 <meta name="geo.placename" content="${c.place}">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"${p.t}","description":"${p.d}","url":"https://tonerin-italy.pages.dev${base}${slug}/","inLanguage":"${c.l}","publisher":{"@type":"Organization","name":"${c.site}"},"datePublished":"2025-01-15","dateModified":"2025-06-10"}
+{"@context":"https://schema.org","@type":"Article","headline":"${p.t}","description":"${p.d}","url":"https://tonerin.pages.dev${base}${slug}/","inLanguage":"${c.l}","publisher":{"@type":"Organization","name":"${c.site}"},"datePublished":"2025-01-15","dateModified":"2025-06-10"}
 </script>
 <style>${CSS}</style>
 </head>
