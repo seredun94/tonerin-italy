@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tonerin-italy.netlify.app/sitemap.xml
+Sitemap: https://tonerin.pages.dev/sitemap.xml
