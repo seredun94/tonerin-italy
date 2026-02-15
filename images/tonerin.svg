@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420">
+  <rect width="420" height="420" rx="20" fill="#e8f5e9"/>
+  <rect x="140" y="60" width="140" height="240" rx="16" fill="#4caf50"/>
+  <rect x="148" y="68" width="124" height="224" rx="12" fill="#fff"/>
+  <rect x="160" y="120" width="100" height="40" rx="4" fill="#2e7d32"/>
+  <text x="210" y="146" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="18" font-weight="bold">TONERIN</text>
+  <rect x="160" y="170" width="100" height="20" rx="4" fill="#e8f5e9"/>
+  <text x="210" y="185" text-anchor="middle" fill="#2e7d32" font-family="Arial,sans-serif" font-size="10">Integratore Naturale</text>
+  <circle cx="210" cy="230" r="30" fill="#e8f5e9"/>
+  <path d="M210 210 C200 218, 190 228, 210 248 C230 228, 220 218, 210 210z" fill="#4caf50"/>
+  <rect x="170" y="80" width="80" height="30" rx="4" fill="#c8e6c9"/>
+  <text x="210" y="100" text-anchor="middle" fill="#2e7d32" font-family="Arial,sans-serif" font-size="11" font-weight="bold">SALUTE</text>
+  <text x="210" y="330" text-anchor="middle" fill="#2e7d32" font-family="Arial,sans-serif" font-size="14" font-weight="bold">Supporto Cardiovascolare</text>
+  <text x="210" y="355" text-anchor="middle" fill="#666" font-family="Arial,sans-serif" font-size="11">Formula 100% Naturale</text>
+  <text x="210" y="390" text-anchor="middle" fill="#999" font-family="Arial,sans-serif" font-size="10">30 capsule | Made in EU</text>
+</svg>

@@ -1,0 +1,6 @@
+# Local Netlify folder
+.netlify
+# Wrangler
+.wrangler
+# Dependencies
+node_modules

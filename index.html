@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonerin — Integratore Naturale per la Pressione Sanguigna | Italia</title>
+    <meta name="description" content="Tonerin è un integratore naturale per la normalizzazione della pressione sanguigna e la salute cardiovascolare. Scopri i benefici, la composizione e le opinioni mediche.">
+    <meta name="keywords" content="Tonerin, pressione sanguigna, ipertensione, integratore naturale, salute cardiovascolare, pressione alta, rimedio naturale">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Tonerin Italia">
+    <meta name="geo.region" content="IT">
+    <meta name="geo.placename" content="Italia">
+    <meta name="language" content="Italian">
+    <link rel="canonical" href="https://tonerin-italy.pages.dev/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tonerin — Integratore Naturale per la Pressione Sanguigna">
+    <meta property="og:description" content="Tonerin è un integratore naturale per la normalizzazione della pressione sanguigna e la salute cardiovascolare.">
+    <meta property="og:url" content="https://tonerin-italy.pages.dev/">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Tonerin Italia">
+    <meta property="og:image" content="https://tonerin-italy.pages.dev/images/tonerin.png">
+
+    <!-- Schema.org Product -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Tonerin",
+        "description": "Integratore naturale per la normalizzazione della pressione sanguigna e il supporto cardiovascolare.",
+        "brand": {
+            "@type": "Brand",
+            "name": "Tonerin"
+        },
+        "image": "https://tonerin-italy.pages.dev/images/tonerin.png",
+        "url": "https://tonerin-italy.pages.dev/",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1247",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {"@type": "Person", "name": "Marco Rossi"},
+                "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                "reviewBody": "Dopo 3 settimane di utilizzo la mia pressione si è stabilizzata completamente."
+            },
+            {
+                "@type": "Review",
+                "author": {"@type": "Person", "name": "Giulia Bianchi"},
+                "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+                "reviewBody": "Prodotto eccellente, mi sento molto meglio e ho più energia."
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --green-dark: #2e7d32;
+            --green-main: #4caf50;
+            --green-light: #e8f5e9;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-light: #f5f7f5;
+            --white: #fff;
+            --shadow: 0 2px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 4px 24px rgba(0,0,0,0.12);
+            --radius: 12px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.7;
+            background: var(--white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        .logo {
+            font-size: clamp(1.4rem, 3vw, 1.8rem);
+            font-weight: 800;
+            color: var(--green-dark);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.6rem;
+            cursor: pointer;
+            color: var(--green-dark);
+        }
+
+        .nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav a:hover { color: var(--green-main); }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--green-light) 0%, #c8e6c9 50%, var(--green-light) 100%);
+            padding: clamp(40px, 8vw, 80px) 0;
+        }
+
+        .hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            color: var(--green-dark);
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-light);
+            margin-bottom: 24px;
+            max-width: 500px;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            justify-self: center;
+            filter: drop-shadow(0 8px 24px rgba(0,0,0,0.18));
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--green-main);
+            color: var(--white);
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: var(--green-dark);
+            transform: translateY(-2px);
+        }
+
+        .btn-lg {
+            padding: 18px 48px;
+            font-size: 1.2rem;
+        }
+
+        /* Section */
+        .section {
+            padding: clamp(40px, 8vw, 80px) 0;
+        }
+
+        .section-alt {
+            background: var(--bg-light);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(1.5rem, 3vw, 2.2rem);
+            color: var(--green-dark);
+            margin-bottom: 12px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 1.05rem;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Benefits Grid */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .benefit-card {
+            background: var(--white);
+            padding: 28px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .benefit-card:hover { transform: translateY(-4px); }
+
+        .benefit-icon {
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .benefit-card h3 {
+            color: var(--green-dark);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .benefit-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Ingredients */
+        .ingredients-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+
+        .ingredient-card {
+            background: var(--white);
+            padding: 24px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border-left: 4px solid var(--green-main);
+        }
+
+        .ingredient-card h3 {
+            color: var(--green-dark);
+            margin-bottom: 8px;
+        }
+
+        .ingredient-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Steps */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            counter-reset: step;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step::before {
+            counter-increment: step;
+            content: counter(step);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: var(--green-main);
+            color: var(--white);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .step h3 {
+            color: var(--green-dark);
+            margin-bottom: 8px;
+        }
+
+        .step p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+        }
+
+        .stat-card {
+            background: var(--white);
+            padding: 32px 20px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 800;
+            color: var(--green-dark);
+        }
+
+        .stat-label {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-top: 4px;
+        }
+
+        /* Doctor Cards */
+        .doctors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .doctor-card {
+            background: var(--white);
+            padding: 28px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .doctor-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .doctor-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--green-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--green-dark);
+            flex-shrink: 0;
+        }
+
+        .doctor-name {
+            font-weight: 700;
+            color: var(--green-dark);
+        }
+
+        .doctor-title {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .doctor-card blockquote {
+            color: var(--text-light);
+            font-style: italic;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            border-left: 3px solid var(--green-main);
+            padding-left: 16px;
+        }
+
+        /* Reviews */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .review-card {
+            background: var(--white);
+            padding: 24px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .review-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .review-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--green-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--green-dark);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .review-name {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .review-city {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .review-stars {
+            color: #f9a825;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+
+        .review-card p {
+            color: var(--text-light);
+            font-size: 0.92rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--green-dark), var(--green-main));
+            color: var(--white);
+            text-align: center;
+            padding: clamp(40px, 8vw, 80px) 0;
+        }
+
+        .cta-section h2 {
+            font-size: clamp(1.5rem, 3vw, 2.2rem);
+            margin-bottom: 16px;
+        }
+
+        .cta-section p {
+            font-size: 1.1rem;
+            margin-bottom: 24px;
+            opacity: 0.9;
+        }
+
+        .btn-white {
+            background: var(--white);
+            color: var(--green-dark);
+        }
+
+        .btn-white:hover {
+            background: var(--green-light);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1b5e20;
+            color: rgba(255,255,255,0.8);
+            padding: 40px 0 24px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+
+        .footer h4 {
+            color: var(--white);
+            margin-bottom: 16px;
+            font-size: 1.05rem;
+        }
+
+        .footer a {
+            color: rgba(255,255,255,0.75);
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: block;
+            padding: 3px 0;
+            transition: color 0.2s;
+        }
+
+        .footer a:hover { color: var(--white); }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.15);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+
+            .nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 16px 20px;
+                box-shadow: var(--shadow);
+                gap: 12px;
+            }
+
+            .nav.active { display: flex; }
+
+            .hero .container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero p { margin-left: auto; margin-right: auto; }
+
+            .hero-img { max-width: 220px; order: -1; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="container">
+        <a href="/" class="logo">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 28s-11-7.2-11-15.6C5 7.6 8.6 4 13 4c2.4 0 4.5 1.2 5.5 3h-5l0 0C13.5 5.2 15.6 4 18 4c4.4 0 8 3.6 8 8.4C26 20.8 16 28 16 28z" fill="#2e7d32"/>
+                <path d="M16 28s-11-7.2-11-15.6C5 7.6 8.6 4 13 4c2.4 0 4.5 1.2 5.5 3 1-1.8 3.1-3 5.5-3 4.4 0 8 3.6 8 8.4C32 20.8 16 28 16 28z" fill="#4caf50" opacity="0.6"/>
+            </svg>
+            Tonerin
+        </a>
+        <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('active')">&#9776;</button>
+        <nav class="nav">
+            <a href="#benefici">Benefici</a>
+            <a href="#composizione">Composizione</a>
+            <a href="#come-funziona">Come funziona</a>
+            <a href="#opinioni">Opinioni</a>
+            <a href="#recensioni">Recensioni</a>
+            <a href="/tonerin-prezzo/">Prezzo</a>
+            <a href="/tonerin-dove-comprare/">Dove comprare</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div>
+            <h1>Tonerin — Supporto Naturale per la Tua Pressione Sanguigna</h1>
+            <p>Integratore a base di ingredienti naturali per normalizzare la pressione arteriosa, migliorare la circolazione e proteggere il sistema cardiovascolare.</p>
+            <a href="#ordina" class="btn btn-lg">Ordina ora</a>
+        </div>
+        <img src="/images/tonerin.png" alt="Tonerin integratore naturale per la pressione sanguigna" class="hero-img" width="350" height="555">
+    </div>
+</section>
+
+<!-- Benefici -->
+<section class="section" id="benefici">
+    <div class="container">
+        <h2 class="section-title">Benefici di Tonerin</h2>
+        <p class="section-subtitle">Una formula naturale studiata per supportare la salute del tuo cuore e dei tuoi vasi sanguigni.</p>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#10084;&#65039;</span>
+                <h3>Normalizza la pressione</h3>
+                <p>Aiuta a mantenere i valori della pressione arteriosa entro i limiti normali, riducendo il rischio di ipertensione.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#128167;</span>
+                <h3>Migliora la circolazione</h3>
+                <p>Favorisce un flusso sanguigno ottimale, garantendo un migliore apporto di ossigeno e nutrienti a tutti gli organi.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#129505;</span>
+                <h3>Protegge il cuore</h3>
+                <p>Gli antiossidanti naturali rafforzano il muscolo cardiaco e proteggono dalle malattie cardiovascolari.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#127793;</span>
+                <h3>Ingredienti 100% naturali</h3>
+                <p>Formulato esclusivamente con estratti vegetali e vitamine, senza sostanze chimiche aggressive.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#9889;</span>
+                <h3>Aumenta l'energia</h3>
+                <p>Una circolazione migliorata si traduce in maggiore vitalità ed energia durante tutta la giornata.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#128170;</span>
+                <h3>Rafforza i vasi sanguigni</h3>
+                <p>Migliora l'elasticità delle pareti vascolari, prevenendo la fragilità capillare e il deterioramento dei vasi.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#128548;</span>
+                <h3>Riduce lo stress</h3>
+                <p>Componenti naturali che aiutano a gestire lo stress e l'ansia, fattori che influenzano la pressione arteriosa.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="benefit-icon" aria-hidden="true">&#128171;</span>
+                <h3>Riduce il colesterolo</h3>
+                <p>Contribuisce a mantenere livelli sani di colesterolo nel sangue, proteggendo le arterie dall'aterosclerosi.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Composizione -->
+<section class="section section-alt" id="composizione">
+    <div class="container">
+        <h2 class="section-title">Composizione di Tonerin</h2>
+        <p class="section-subtitle">Ogni capsula contiene una combinazione bilanciata di ingredienti naturali scientificamente selezionati.</p>
+        <div class="ingredients-grid">
+            <div class="ingredient-card">
+                <h3>&#127819; Vitamina C</h3>
+                <p>Potente antiossidante che protegge i vasi sanguigni dai radicali liberi, migliora l'elasticità delle arterie e supporta la produzione di collagene vascolare.</p>
+            </div>
+            <div class="ingredient-card">
+                <h3>&#127807; Estratto di foglie d'olivo</h3>
+                <p>Ricco di oleuropeina, un composto che aiuta a ridurre la pressione arteriosa, possiede proprietà antiossidanti e anti-infiammatorie potenti.</p>
+            </div>
+            <div class="ingredient-card">
+                <h3>&#128300; Cromo</h3>
+                <p>Minerale essenziale che regola il metabolismo degli zuccheri, supporta la sensibilità all'insulina e contribuisce a mantenere i livelli di colesterolo normali.</p>
+            </div>
+            <div class="ingredient-card">
+                <h3>&#127811; Gymnema Sylvestre</h3>
+                <p>Pianta medicinale ayurvedica che regola la glicemia, supporta la salute metabolica e contribuisce al benessere cardiovascolare generale.</p>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:32px;">
+            <a href="/tonerin-composizione/" style="color:var(--green-dark);font-weight:600;text-decoration:underline;">Scopri tutti gli ingredienti di Tonerin &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- Come funziona -->
+<section class="section" id="come-funziona">
+    <div class="container">
+        <h2 class="section-title">Come Funziona Tonerin</h2>
+        <p class="section-subtitle">Un approccio in 3 fasi per migliorare la tua salute cardiovascolare in modo naturale.</p>
+        <div class="steps">
+            <div class="step">
+                <h3>Fase 1: Normalizzazione</h3>
+                <p>Nelle prime 1-2 settimane, gli ingredienti attivi iniziano a ridurre gradualmente la pressione arteriosa elevata, stabilizzando i valori entro parametri normali.</p>
+            </div>
+            <div class="step">
+                <h3>Fase 2: Rafforzamento</h3>
+                <p>Dalla 2ª alla 4ª settimana, la formula rafforza le pareti dei vasi sanguigni, migliora l'elasticità arteriosa e ottimizza la circolazione sanguigna.</p>
+            </div>
+            <div class="step">
+                <h3>Fase 3: Protezione</h3>
+                <p>Dopo il primo mese, il sistema cardiovascolare è più resistente. La pressione si mantiene stabile e il rischio di complicazioni si riduce significativamente.</p>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:32px;">
+            <a href="/tonerin-come-funziona/" style="color:var(--green-dark);font-weight:600;text-decoration:underline;">Approfondisci il meccanismo d'azione &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- Risultati clinici -->
+<section class="section section-alt" id="risultati">
+    <div class="container">
+        <h2 class="section-title">Risultati Clinici</h2>
+        <p class="section-subtitle">I dati raccolti dagli studi clinici confermano l'efficacia di Tonerin.</p>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">87%</div>
+                <div class="stat-label">Normalizzazione della pressione arteriosa</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">93%</div>
+                <div class="stat-label">Miglioramento della circolazione sanguigna</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">79%</div>
+                <div class="stat-label">Riduzione del colesterolo cattivo</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">95%</div>
+                <div class="stat-label">Soddisfazione complessiva dei pazienti</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Opinioni mediche -->
+<section class="section" id="opinioni">
+    <div class="container">
+        <h2 class="section-title">Opinioni dei Medici</h2>
+        <p class="section-subtitle">I professionisti della salute raccomandano Tonerin per il supporto cardiovascolare naturale.</p>
+        <div class="doctors-grid">
+            <div class="doctor-card">
+                <div class="doctor-header">
+                    <div class="doctor-avatar">&#9877;&#65039;</div>
+                    <div>
+                        <div class="doctor-name">Dott. Alessandro Ferretti</div>
+                        <div class="doctor-title">Cardiologo, Ospedale San Raffaele, Milano</div>
+                    </div>
+                </div>
+                <blockquote>&laquo;Consiglio Tonerin ai miei pazienti con ipertensione lieve come supporto naturale alla terapia. La combinazione di estratto d'olivo e vitamina C ha dimostrato risultati significativi nella normalizzazione della pressione arteriosa.&raquo;</blockquote>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-header">
+                    <div class="doctor-avatar">&#9877;&#65039;</div>
+                    <div>
+                        <div class="doctor-name">Dott.ssa Maria Conti</div>
+                        <div class="doctor-title">Medico internista, Policlinico Gemelli, Roma</div>
+                    </div>
+                </div>
+                <blockquote>&laquo;L'approccio naturale di Tonerin è particolarmente indicato per chi preferisce integrare la propria dieta con ingredienti vegetali. Ho osservato miglioramenti concreti nei miei pazienti dopo 3-4 settimane di utilizzo regolare.&raquo;</blockquote>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-header">
+                    <div class="doctor-avatar">&#9877;&#65039;</div>
+                    <div>
+                        <div class="doctor-name">Dott. Roberto Marchetti</div>
+                        <div class="doctor-title">Specialista in medicina preventiva, Firenze</div>
+                    </div>
+                </div>
+                <blockquote>&laquo;La prevenzione è fondamentale per la salute cardiovascolare. Tonerin offre un supporto eccellente grazie alla sua formula bilanciata. Lo raccomando come parte di uno stile di vita sano e attivo.&raquo;</blockquote>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:32px;">
+            <a href="/tonerin-opinioni-mediche/" style="color:var(--green-dark);font-weight:600;text-decoration:underline;">Leggi tutte le opinioni dei medici &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- Recensioni -->
+<section class="section section-alt" id="recensioni">
+    <div class="container">
+        <h2 class="section-title">Recensioni dei Clienti</h2>
+        <p class="section-subtitle">Scopri cosa dicono le persone che hanno già provato Tonerin.</p>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">MR</div>
+                    <div>
+                        <div class="review-name">Marco Rossi</div>
+                        <div class="review-city">Milano</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Dopo 3 settimane di utilizzo la mia pressione si è stabilizzata completamente. Passato da 150/95 a 125/80. Prodotto eccezionale, lo consiglio a tutti!</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">GB</div>
+                    <div>
+                        <div class="review-name">Giulia Bianchi</div>
+                        <div class="review-city">Roma</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Prodotto eccellente, mi sento molto meglio e ho più energia. Il mio medico ha confermato un miglioramento significativo nei miei esami del sangue.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">LV</div>
+                    <div>
+                        <div class="review-name">Luigi Verdi</div>
+                        <div class="review-city">Napoli</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Ho 62 anni e soffro di ipertensione da 10 anni. Con Tonerin la mia pressione è finalmente sotto controllo senza effetti collaterali.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">AF</div>
+                    <div>
+                        <div class="review-name">Anna Ferrari</div>
+                        <div class="review-city">Torino</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <p>Utilizzo Tonerin da un mese. I risultati sono buoni: pressione più stabile e meno mal di testa. L'unico neo è che impiega qualche settimana per agire.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">PC</div>
+                    <div>
+                        <div class="review-name">Paolo Colombo</div>
+                        <div class="review-city">Bologna</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Fantastico! Ho provato molti integratori ma Tonerin è l'unico che ha dato risultati concreti. La mia pressione è stabile da 2 mesi consecutivi.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">SE</div>
+                    <div>
+                        <div class="review-name">Sofia Esposito</div>
+                        <div class="review-city">Firenze</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Il mio medico me lo ha consigliato e sono molto soddisfatta. Pressione normalizzata e circolazione migliorata. Mi sento ringiovanita!</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">GR</div>
+                    <div>
+                        <div class="review-name">Giuseppe Romano</div>
+                        <div class="review-city">Palermo</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Sono un ex sportivo e la pressione alta era diventata un problema serio. Con Tonerin ho risolto in modo naturale. Ottimo prodotto!</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">CR</div>
+                    <div>
+                        <div class="review-name">Chiara Rizzo</div>
+                        <div class="review-city">Genova</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <p>Buon prodotto, ingredienti naturali e risultati visibili dopo 2-3 settimane. Lo consiglio a chi cerca un'alternativa naturale ai farmaci.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">DM</div>
+                    <div>
+                        <div class="review-name">Davide Marino</div>
+                        <div class="review-city">Venezia</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Mia moglie ed io lo usiamo entrambi. La pressione si è normalizzata per tutti e due. Un prodotto che mantiene le sue promesse.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">EM</div>
+                    <div>
+                        <div class="review-name">Elena Moretti</div>
+                        <div class="review-city">Verona</div>
+                    </div>
+                </div>
+                <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p>Dopo la menopausa ho avuto problemi di pressione alta. Tonerin mi ha aiutata enormemente. I miei valori sono tornati nella norma.</p>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:32px;">
+            <a href="/tonerin-recensioni/" style="color:var(--green-dark);font-weight:600;text-decoration:underline;">Leggi tutte le recensioni &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA / Ordina -->
+<section class="cta-section" id="ordina">
+    <div class="container">
+        <h2>Ordina Tonerin Oggi</h2>
+        <p>Prenditi cura della tua salute cardiovascolare con un integratore naturale efficace e sicuro.</p>
+        <a href="#ordina" class="btn btn-lg btn-white">Ordina ora</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h4>Tonerin</h4>
+                <a href="/">Pagina principale</a>
+                <a href="#benefici">Benefici</a>
+                <a href="#composizione">Composizione</a>
+                <a href="#come-funziona">Come funziona</a>
+                <a href="#recensioni">Recensioni</a>
+            </div>
+            <div>
+                <h4>Informazioni</h4>
+                <a href="/tonerin-composizione/">Composizione Tonerin</a>
+                <a href="/tonerin-prezzo/">Prezzo Tonerin</a>
+                <a href="/tonerin-dove-comprare/">Dove comprare Tonerin</a>
+                <a href="/tonerin-come-funziona/">Come funziona Tonerin</a>
+                <a href="/tonerin-opinioni-mediche/">Opinioni mediche</a>
+            </div>
+            <div>
+                <h4>Approfondimenti</h4>
+                <a href="/tonerin-ingredienti/">Ingredienti</a>
+                <a href="/tonerin-effetti-collaterali/">Effetti collaterali</a>
+                <a href="/tonerin-farmacia/">Tonerin in farmacia</a>
+                <a href="/tonerin-controindicazioni/">Controindicazioni</a>
+                <a href="/tonerin-recensioni/">Recensioni clienti</a>
+            </div>
+            <div>
+                <h4>Salute</h4>
+                <a href="/ipertensione-rimedi-naturali/">Rimedi naturali ipertensione</a>
+                <a href="/pressione-alta-sintomi/">Sintomi pressione alta</a>
+                <a href="/salute-cardiovascolare/">Salute cardiovascolare</a>
+                <a href="/pressione-sanguigna-normale/">Pressione sanguigna normale</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tonerin Italia. Tutti i diritti riservati. Integratore alimentare — non è un farmaco.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});history.replaceState(null,null,' ');}});});
+</script>
+</body>
+</html>

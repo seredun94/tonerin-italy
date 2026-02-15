@@ -1,0 +1,65 @@
+# Geo-based language routing
+# Italian is default (root), other languages in subdirectories
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  conditions = {Country = ["US", "GB", "AU", "CA", "NZ", "IE", "ZA", "SG", "HK", "PH", "IN", "NG", "KE"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/de/"
+  conditions = {Country = ["DE", "AT", "CH", "LI"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/fr/"
+  conditions = {Country = ["FR", "BE", "LU", "MC", "SN", "CI", "ML", "CM"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/es/"
+  conditions = {Country = ["ES", "MX", "AR", "CO", "CL", "PE", "VE", "EC", "GT", "CU", "BO", "DO", "HN", "PY", "SV", "NI", "CR", "PA", "UY"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/pl/"
+  conditions = {Country = ["PL"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/ro/"
+  conditions = {Country = ["RO", "MD"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/pt/"
+  conditions = {Country = ["PT", "BR", "AO", "MZ"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/bg/"
+  conditions = {Country = ["BG"]}
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "/ru/"
+  conditions = {Country = ["RU", "BY", "KZ", "KG", "TJ", "UZ", "UA"]}
+  status = 302
+  force = true
